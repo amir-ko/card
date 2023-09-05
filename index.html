@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link    href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Chakra+Petch&family=Orbitron&family=Parisienne&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="css/card.css"> 
+
+
+</head>
+<body>
+    <main>
+        <div class="card1">
+            <img src="img/chip.png" alt="">
+            <img src="img/visa.png" alt="">
+            <div class="num">
+                <span style="width:100px; "></span>
+                <span style="width:100px; "></span>
+                <span style="width:100px; "></span>
+                <span style="width:100px; "></span>
+            </div>
+            <div class="chip">
+                <div class="hold">
+                    <h2>card holder</h2>
+                    <span id="holder1"></span>
+                </div>
+                <div class="expire">
+                    <h2>expire</h2>
+                    <span id="exp"  style="color: white;"></span>
+                    <span id="exp1" style="color: white;"></span>
+
+                </div>
+            </div>
+
+        </div>        
+        <div class="card2">
+            <span></span>
+            <div class="cvv">
+                <h3>cvv2 :</h3>
+                <span id="cardcv" style="color: red;"></span>                
+            </div>
+            <img src="img/visa.png" alt="">
+        </div>
+        <div class="box">
+            
+            <div class="card-number"> 
+                <span>card number</span>               
+                <input type="text" maxlength="4">
+                <input type="text" maxlength="4">
+                <input type="text" maxlength="4">
+                <input type="text" maxlength="4">
+            </div>
+            <div class="holder">
+                <span>card holder</span>
+                <input id="hold" type="text">
+            </div>
+            <div class="exp">
+                <span>expiration date</span>
+                <input id="max" type="text" placeholder="MM" maxlength="2"  >
+                <input id="max1" type="text" placeholder="YY" maxlength="2" >
+            </div> 
+            <div class="cv">
+                <span>cvv2</span>
+                <input id="cvvv" type="text" maxlength="4" >
+            </div>
+            <button>submit</button>
+        </div>
+    </main>
+    <script src="js/card.js"></script>
+</body>
+</html>

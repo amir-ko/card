@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+    overflow: hidden;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;align-items: flex-end;
+    flex-wrap: wrap;          
+    background-image: url(../img/bg_bggenerator_com.jpg);
+    font-family: 'Orbitron', sans-serif;
+
+    
+}
+.card1{
+    width: 450px;
+    height: 250px;
+    background-color: #2b2a2a;         
+    border-radius: 10px;
+    top: 100px;
+    right: 545px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 99;
+    transition: .6s;
+    transform: perspective(800px) rotateY(0)
+
+
+
+}
+.card1 .num{
+    width: 100%;            
+    display: flex;
+    justify-content: center;align-items: center;
+    color: white;
+}
+.num span{
+    font-family: 'Orbitron', sans-serif;
+}
+.card1:hover{
+    transform: perspective(800px) rotateY(180deg);
+    z-index: -99;
+}
+.card1:hover ~ .card2{
+    z-index: 99;
+    transform: perspective(800px) rotateY(180deg);
+}
+.chip{
+    width: 100%;
+    display: flex;
+    font-family: 'Orbitron', sans-serif;
+
+}
+.hold{
+    
+    width: 100%;            
+}
+.hold>h2{
+    font-size: 13px;
+    color: white;
+    text-transform: capitalize;
+    margin-left: 10px;
+}
+.expire{
+    width: 100%;              
+}
+.expire>h2{
+    margin-left: 160px;
+    font-size: 13px;
+    color: white;
+    text-transform: capitalize;
+}
+img:nth-of-type(1){
+    width: 70px;
+    height: 50px;
+    margin: 20px 30px;
+}
+img:nth-of-type(2){
+    width: 90px;
+    height: 50px;
+    margin: 20px 30px;
+}
+.card2{
+    width: 450px;
+    height: 250px;
+    background-color: rgb(62, 63, 63);
+    position: absolute;
+    top: 100px;
+    right: 545px;
+    display: flex;
+    align-items: center;
+    z-index: -99;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    transform:perspective(800px) rotateY(0);  
+    transition: .6s;       
+}
+
+
+.card2>img{
+    width: 90px;
+    height: 50px;
+    transform: perspective(800px) rotateY(180deg);
+}
+.card2>span:nth-of-type(1){
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    display: flex;
+
+}
+.card2>span:nth-of-type(2){
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    display: flex;
+}
+.cvv{
+    background-color: white;
+    width:90%;
+    height: 50px;
+    font-family: 'Orbitron', sans-serif;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    margin: 0 50px;
+    border-radius: 5px;
+    font-weight: bold;
+    transform: perspective(800px) rotateY(180deg);
+}
+.cvv>span{
+    margin-left: 10px;            
+}
+.box{
+    width: 33%;
+    height: 450px;
+    background: rgba( 255, 255, 255, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5.5px );
+    
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    display: flex;
+    align-items: center;    
+    justify-content: center;    
+    flex-wrap: wrap;   
+    border-radius: 10px; 
+    margin-bottom: 30px;
+}
+.card-number{
+    width: 100%;
+    margin-top: 130px;          
+    margin-left: 50px;
+}
+.card-number>span{
+    color: rgb(172, 172, 172);
+    text-transform: uppercase;  
+    display: block;
+    font-size: 13px; 
+    margin-left: 10px; 
+          
+}
+.card-number>input{
+    width: 90px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-family: 'Orbitron', sans-serif;
+    
+}
+.hold #holder1{
+    color: white;
+    margin-left: 10px;
+    text-transform: capitalize;
+}
+.holder{
+    width: 100%;
+    margin-left:50px
+}
+.holder>input{
+    width: 370px;  
+    margin-left: 10px;  
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 5px;
+
+}
+.holder>span{
+    color: rgb(172, 172, 172);   
+    display: block;  
+    margin-left: 10px;   
+    text-transform: uppercase;  
+}
+.exp{
+    width: 50%;
+    margin-right: 35px;                       
+    height: 100px;
+    padding-bottom: 20px;
+}
+.exp>span{
+    color:rgb(172, 172, 172);            
+    width: 100%;
+    display: block;
+    text-transform: capitalize;
+    margin-left: 50px;
+}
+.exp>input{
+    border-radius: 10px;
+    width: 90px;
+    height: 50px; 
+    margin-left: 30px;  
+    margin-top: 5px;         
+}
+.cv{
+    width: 40%;            
+}
+.cv>span{
+    color:rgb(172, 172, 172);            
+    width: 100%;
+    display: block;
+    text-transform: capitalize;
+    margin-right: 50px;
+}
+
+.cv>input{
+    width: 90px;
+    height: 50px;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+button{
+   width: 370px;
+   height: 60px;
+   border-radius: 5px;
+   color:white;
+   background: rgba( 255, 255, 255, 0.2 );
+   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+   backdrop-filter: blur( 5.5px );
+   -webkit-backdrop-filter: blur( 5.5px );
+   border-radius: 10px;
+   border: 1px solid rgba( 255, 255, 255, 0.18 );
+   font-size: 20px;
+   text-transform: uppercase;
+   font-family: 'Orbitron', sans-serif;
+   cursor: pointer;
+}
