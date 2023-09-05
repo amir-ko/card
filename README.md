@@ -13,9 +13,5 @@
 
 - Created - 2023-09-05
 - Technologies Used - Html , Css ,javascript
-
--
-
-
 - How to reach me : with my [instagram](https://instagram.com/amirrezakokabiweb?igshid=NGExMmI2YTkyZg==
 ) and [linkedin](https://www.linkedin.com/in/amirreza-kokabi-ba7716143/)
