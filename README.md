@@ -1,15 +1,12 @@
 # Template By Html & Css & javascript
 
-
-
-
 - [Demo Project](https://amir-ko.github.io/card/)
 
-![1 (1)](https://github.com/amir-ko/card/assets/119657835/227310ad-e676-4d82-8835-1f896d1d9297)
+![1 (1)](https://github.com/amir-ko/card/assets/119657835/6fc52393-506f-48ca-9a38-53119a7ec03d)
 
-![2 (1)](https://github.com/amir-ko/card/assets/119657835/b4d2072f-ff0a-4a74-9d94-41c8098a6b25)
+![2 (1)](https://github.com/amir-ko/card/assets/119657835/80065d6f-5ab0-4dd0-a7ba-e0e56e4f38a1)
 
-![3 (1)](https://github.com/amir-ko/card/assets/119657835/977a74b3-8e65-4ab9-a422-0c68e9064cbf)
+![3 (1)](https://github.com/amir-ko/card/assets/119657835/f6796d58-3d17-4ef7-8e50-9e27ee0dae5e)
 
 
 - Developed by Amirreza Kokabi
